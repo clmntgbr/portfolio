@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   site: "https://clmntgbr.github.io",
-  base: "portfolio",
+  base: "/portfolio",
   trailingSlash: "always",
   integrations: [tailwind()],
 });
